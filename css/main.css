@@ -87,6 +87,129 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------- Base Header - Footer Styles ------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+/* Header styles */
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+/* -------Mobile Styles - Homepage -------*/
+
+.hero-area {
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/* Footer */
+
+footer {
+
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+.copyright {
+
+}
+/*----------Aside - Main Content--------*/
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+.reviews {
+
+}
+
+main .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
