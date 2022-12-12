@@ -110,7 +110,7 @@ a {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Sample', sans-serif;
   font-size: 1.875em;
 }
 
@@ -124,6 +124,7 @@ h4 {
 p {
   font-size: .875em;
   line-height: 18px;
+
 }
 
 img { 
@@ -156,6 +157,7 @@ footer {
 
 }
 
+/* Header */
 header {
   padding: 15px 0;
   background-color: #202322;
@@ -191,10 +193,14 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   color: #e2e3ed;
+  font-weight: bold;
+
 }
 
+/* Footer */
 footer {
   flex-direction: column;
+  background-color: #202322;
 }
 
 footer p {
@@ -228,6 +234,33 @@ footer .social-icons p {
     margin: 20px 0;
   }
 
+/*--- Base Styles - Form Input ---*/
+aside .form {
+  margin-top: 30px;
+}
+
+input [type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input [type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* -------Mobile Styles - Homepage -------*/
 
 /* Hero Area */
@@ -246,7 +279,9 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  width: 100%;
 }
+
 
 
 /* Features */
@@ -274,6 +309,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 /* Reviews */
@@ -282,6 +318,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
