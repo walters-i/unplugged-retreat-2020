@@ -130,11 +130,11 @@ p {
 }
 
 img { 
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -169,6 +169,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  background: url('/img/unpluggedlogo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-divider {
@@ -239,12 +243,27 @@ footer .social-icons p {
 
 /* -------Mobile Styles - Homepage -------*/
 
+/* Header */
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
 /* Hero Area */
 
 .hero-area {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  background: url('/img/jake-melara-30679-unsplash.png.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-area h1 {
@@ -252,6 +271,14 @@ footer .social-icons p {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.hero-area figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Aside */
@@ -296,6 +323,19 @@ input [type=button] {
 .features {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-image: url('/img/omar-lopez-296944-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -513,7 +553,11 @@ input [type=button] {
   }
 
   header figure {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   header nav {
@@ -533,6 +577,13 @@ input [type=button] {
     font-size: 3em;
     line-height: 1;
     margin: 0;
+  }
+  .hero-area figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   /* Aside */
@@ -674,8 +725,26 @@ input [type=button] {
     font-size: 3.75em;
   }
 
+  .hero-area figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /* Header */
   header {
     padding: 15px 0;
+  }
+
+  header figure {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+
   }
 
   h2 {
