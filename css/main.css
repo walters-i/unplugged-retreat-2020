@@ -169,10 +169,6 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  background: url('/img/unpluggedlogo.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .header-divider {
@@ -189,6 +185,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  text-transform: uppercase;
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
@@ -273,13 +270,6 @@ header figure {
   line-height: 1.2;
 }
 
-.hero-area figure {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
 /* Aside */
 
@@ -323,7 +313,6 @@ input [type=button] {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   background-image: url('/img/omar-lopez-296944-unsplash.jpg');
   background-size: cover;
@@ -331,13 +320,6 @@ input [type=button] {
   background-position: center;
 }
 
-.features figure {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
 .features h2 {
   margin-bottom: 60px;
@@ -550,14 +532,11 @@ input [type=button] {
 
   header .content-wrapper {
     justify-content: space-between;
+    width: 100%;
   }
 
   header figure {
-    width: 40%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
+    width: 30%;
   }
 
   header nav {
@@ -573,17 +552,13 @@ input [type=button] {
   }
 
   /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
     margin: 0;
-  }
-  .hero-area figure {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
   }
 
   /* Aside */
@@ -601,7 +576,7 @@ input [type=button] {
   }
 
   /* Features */
-  .features {
+  .features article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -695,6 +670,10 @@ input [type=button] {
     align-items: flex-start;
   }
 
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+
   /*-------FAQ Page--------*/
   .faq .content-wrapper {
     justify-content: space-between;
@@ -721,30 +700,13 @@ input [type=button] {
 
   /* Hero Area */
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
-  }
-
-  .hero-area figure {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
   }
 
   /* Header */
   header {
     padding: 15px 0;
-  }
-
-  header figure {
-    width: 30%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
-
   }
 
   h2 {
@@ -811,6 +773,7 @@ input [type=button] {
   /*-------FAQ Page---------*/
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
