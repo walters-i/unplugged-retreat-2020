@@ -338,6 +338,11 @@ input [type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -772,7 +777,7 @@ input [type=button] {
   .map figure {
     padding-bottom: 37.5%;
   }
-  
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
