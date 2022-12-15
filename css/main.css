@@ -102,6 +102,7 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
 }
 
 a {
@@ -113,6 +114,7 @@ h2 {
   font-family: 'Poppins', 'Sample', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -228,6 +230,14 @@ footer .social-icons p {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
 
   footer .contact {
@@ -256,7 +266,7 @@ header figure {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('/img/jake-melara-30679-unsplash.jpg.jpg');
+  background: url('../img/jake-melara-30679-unsplash.jpg.jpg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -310,12 +320,12 @@ input [type=button] {
 /* Features */
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('/img/omar-lopez-296944-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .features h2 {
@@ -610,12 +620,17 @@ input [type=button] {
     width: 60%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
   .reviews article{
     display: flex;
     justify-content: space-between;
   }
 
+  .reviews article div figure,
   .reviews article div {
     width: 49%;
   }
@@ -654,8 +669,14 @@ input [type=button] {
   footer p {
     line-height: 1.285;
   }
+
   footer .copyright {
     width: 100%;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   /*--------About Page-------*/
